@@ -1,0 +1,89 @@
+.hero-wrapper {
+    position: relative;
+    width: fit-content;
+    font-family: 'Inter', sans-serif;
+    /* background-color: red; */
+    margin: 100px 0px 0px 150px;
+}
+
+.hero-wrapper > h1 {
+    color: #e9f2fa;
+    font-size: 8rem;
+    position: relative;
+    width: fit-content;
+    font-weight: bolder;
+    letter-spacing: -0.4rem;
+}
+
+.hero-wrapper > h5, .hero-wrapper > h6 {
+    /* color: white; */
+    color: #ccd6f6;
+    font-weight: normal;
+    z-index: 1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hero-wrapper > h6 {
+    padding-top: 10px;
+    font-size: 1rem;
+    max-width: 850px;
+}
+
+.hero-wrapper > h1 > span {
+    font-weight: normal;
+    font-size: 8rem;
+    position: relative;
+    -webkit-text-stroke-width: 3px;
+    /* -webkit-text-stroke-color: white; */
+}
+
+.hero-wrapper > h1 > span::after {
+    position: absolute;
+    color: transparent;
+    content: attr(data-string);
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--accent);
+    z-index: -1;
+}
+
+.delay-one::after {
+    animation: title-effect-after 5s infinite; 
+    animation-delay: 1200ms;
+}
+.delay-two::after {
+    animation: title-effect-after 5s infinite; 
+    animation-delay: 1300ms;
+}
+.delay-three::after {
+    animation: title-effect-after 5s infinite; 
+    animation-delay: 1400ms;
+}
+.delay-four::after {
+    animation: title-effect-after 5s infinite; 
+    animation-delay: 1500ms;
+}
+
+@keyframes title-effect-after {
+    0% {
+        left: 0px;
+        top: 0px;
+    } 10% {
+        left: 10px;
+        top: 10px;
+    } 20% {
+        left: 0px;
+        top: 0px;
+    } 100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.hero-accent {
+    color: var(--accent);
+}
+
+.hero-bvt {
+    color: var(--secondary-text);
+    text-decoration-color: #ff5531;
+}
