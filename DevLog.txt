@@ -30,3 +30,8 @@ Forgot to start dev log initially for the first few days
 - Added load animation to social bar 
 - Decided to try and use framer for animations
 - added longer delay to hero title animation
+
+12/23/23 10:30am - 11 am
+- changed how the sizing for hero section was working
+- changed sidebar z-index
+- tested a few things with adding a background radient for depth, undid changes

@@ -13,7 +13,7 @@ export default function Sidebar() {
 
             <motion.div className="sidebar-socials" id="sidebar-social-wrapper"
                 animate={{height: 150, margin: 10}}
-                transition={{ease: "easeOut", duration: 1, delay: 1.2}}
+                transition={{ease: "easeOut", duration: 1, delay: 1.5}}
             >
                 <a className="sidebar-1" href="https://github.com/BenjaminMaring"><i className="fa-brands fa-github"></i></a>
                 <a className="sidebar-2"href="https://www.linkedin.com/in/benjamin-maring-453637216/"><i className="fa-brands fa-linkedin-in"></i></a>

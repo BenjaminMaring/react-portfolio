@@ -1,9 +1,7 @@
 .hero-wrapper {
     position: relative;
-    width: fit-content;
     font-family: 'Inter', sans-serif;
-    /* background-color: red; */
-    margin: 100px 0px 0px 150px;
+    padding: 100px 0px 0px 150px;
 }
 
 .hero-wrapper > h1 {
