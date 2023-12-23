@@ -1,0 +1,18 @@
+.logo-wrapper {
+    position: relative;
+}
+
+.logo-wrapper > a > img, .logo-wrapper > img {
+    width: 80px;
+}
+
+.logo-top {
+    position: absolute;
+    top: 0px;
+    transition: top 150ms linear;
+}
+
+.logo-top:hover {
+    top: -8px;
+    transition: top 150ms linear;
+}

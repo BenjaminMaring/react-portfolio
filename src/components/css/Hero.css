@@ -44,6 +44,7 @@
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: var(--accent);
     z-index: -1;
+    left: 0px;
 }
 
 .delay-one::after {
