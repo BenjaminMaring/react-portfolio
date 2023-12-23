@@ -1,0 +1,32 @@
+Component list 
+    - Header
+    - Hero
+    - Sidebar
+    - Logo
+
+Current App Tree (visualisation of how components are being used within each other)
+
+             --> Sidebar
+Root -> App ---> Header -> Logo
+             --> Hero
+
+
+
+
+
+Dev Log
+Forgot to start dev log initially for the first few days
+
+12/22/23 4-5 pm
+- Added Logo component 
+- Added images for the logo
+- Added hover animations for logo
+- Added folders to sepereate css files from js
+- Added folder for images in the public folder
+
+12/22/23 10pm-11pm
+- Added dev log
+- Added codepen to social bar in place of discord
+- Added load animation to social bar 
+- Decided to try and use framer for animations
+- added longer delay to hero title animation
