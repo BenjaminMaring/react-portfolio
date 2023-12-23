@@ -24,7 +24,7 @@ Forgot to start dev log initially for the first few days
 - Added folders to sepereate css files from js
 - Added folder for images in the public folder
 
-12/22/23 10pm-11pm
+12/22/23 10pm-12pm
 - Added dev log
 - Added codepen to social bar in place of discord
 - Added load animation to social bar 

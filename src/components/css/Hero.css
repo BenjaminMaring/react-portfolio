@@ -49,19 +49,19 @@
 
 .delay-one::after {
     animation: title-effect-after 5s infinite; 
-    animation-delay: 1200ms;
+    animation-delay: 6200ms;
 }
 .delay-two::after {
     animation: title-effect-after 5s infinite; 
-    animation-delay: 1300ms;
+    animation-delay: 6300ms;
 }
 .delay-three::after {
     animation: title-effect-after 5s infinite; 
-    animation-delay: 1400ms;
+    animation-delay: 6400ms;
 }
 .delay-four::after {
     animation: title-effect-after 5s infinite; 
-    animation-delay: 1500ms;
+    animation-delay: 6500ms;
 }
 
 @keyframes title-effect-after {
