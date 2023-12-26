@@ -1,7 +1,7 @@
 .hero-wrapper {
     position: relative;
     font-family: 'Inter', sans-serif;
-    padding: 100px 0px 0px 150px;
+    padding: 80px 0px 0px 200px;
 }
 
 .hero-wrapper > h1 {
@@ -11,6 +11,7 @@
     width: fit-content;
     font-weight: bolder;
     letter-spacing: -0.4rem;
+    padding-left: 30px;
 }
 
 .hero-wrapper > h5, .hero-wrapper > h6 {
@@ -22,7 +23,7 @@
 }
 
 .hero-wrapper > h6 {
-    padding-top: 10px;
+    margin-top: 30px;
     font-size: 1rem;
     max-width: 850px;
 }
@@ -43,6 +44,7 @@
     -webkit-text-stroke-color: var(--accent);
     z-index: -1;
     left: 0px;
+    top: 0px;
 }
 
 .delay-one::after {
@@ -83,6 +85,26 @@
 }
 
 .hero-bvt {
-    color: var(--secondary-text);
-    text-decoration-color: #ff5531;
+    color: var(--accent);
+    text-decoration: underline 2px var(--secondary-text);
 }
+
+.hero-button {
+    background-color: transparent;
+    border: solid 1px var(--accent);
+    border-radius: 9px;
+    color: var(--accent);
+    font-family: 'Inter', sans-serif;
+    margin-top: 50px;
+    padding: 10px 10px;
+    font-size: 1.3rem;
+    transition: background-color 100ms linear, color 100ms linear;
+}
+
+.hero-button:hover {
+    color: var(--bg-color);
+    background-color: var(--accent);
+    transition: background-color 200ms linear, color 200ms linear;
+}
+
+

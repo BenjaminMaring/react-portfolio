@@ -4,10 +4,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border-right: white solid 1px; */
     height: calc(100vh - 50px);
     width: 60px;
-    top: 50px;
+    top: 45px;
     z-index: 10;
 }
 
