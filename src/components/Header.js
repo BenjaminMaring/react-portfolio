@@ -4,7 +4,7 @@ import './css/Header.css'
 
 function Header() {
     return (
-        <div className="Header-wrapper">
+        <div className="Header-wrapper" id="top">
             <Logo />
             <ul className="header-list">
                 <li><a href="https://www.google.com">About</a></li>
