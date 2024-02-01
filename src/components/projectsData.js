@@ -17,10 +17,10 @@ const projectData = [
 
     {
       key: 2,
-      url: './images/projects/AeroWings.png', 
-      desc: <p><span>AeroWings</span> is a fictional company that specializes in private travel.</p>,
-      learned: <p>The point of this project was to practice using a <span>CMS</span>, where I learned just how different web design can be when using a CMS</p>,
-      features: ["Canva", "Wix"]
+      url: './images/projects/tens.png', 
+      desc: <p><span>Tens</span> is a simple game of rolling dice until you get all of the same number.</p>,
+      learned: <p>The point of tens was a simple project to practice React, using functional components and is deployed on netlify, play it <a href="https://tens-benjamin-maring.netlify.app" className="projects-links">Here</a>.</p>,
+      features: ["React"]
     },
 
     { 

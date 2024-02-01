@@ -29,7 +29,7 @@ export default function Project() {
                     <ul id="projects-nav" data-selected={project.key}>
                         <li onClick={() => {changeProject(0)}} className="projects-selected">AeroWings</li>
                         <li onClick={() => {changeProject(1)}}>DJ Flame</li>
-                        <li onClick={() => {changeProject(2)}}>Splitness</li>
+                        <li onClick={() => {changeProject(2)}}>Tens</li>
                         <li onClick={() => {changeProject(3)}}>Links Page</li>
                     </ul>
                     <div className="projects-info-desc">

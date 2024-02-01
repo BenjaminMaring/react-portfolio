@@ -97,3 +97,8 @@
 .projects-features {
     padding-left: 10px;
 }
+
+.projects-links {
+    text-decoration: none;
+    color: var(--accent);
+}
